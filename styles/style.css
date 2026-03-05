@@ -179,7 +179,8 @@ ol {
 
 .content__list-container {
   height: 298px;
-  overflow: auto;
+  width: 399px;
+  overflow-y: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -193,8 +194,8 @@ ol {
 }
 
 .content__list-item {
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .content__card-link:focus {
@@ -298,11 +299,11 @@ ol {
 
 .button:focus {
   outline: none;
-  border: none;
 }
 
 .button:focus-visible {
-  outline: 3px double #fff;
+  outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__submit-button {
